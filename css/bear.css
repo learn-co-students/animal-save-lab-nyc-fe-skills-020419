@@ -9,4 +9,18 @@ html {
 }
 
 /* Write your solution here */
-
+@media (min-width:800px) {
+#bear {
+  position:absolute;
+  margin-top:82px;
+  margin-right:4px;
+  bottom:40px;
+}
+}
+@media (max-width:1196px) {
+  #bear {
+  position:relative;
+  width:800px;
+}
+  
+}
