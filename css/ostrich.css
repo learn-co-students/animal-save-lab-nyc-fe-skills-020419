@@ -9,4 +9,11 @@ html {
 }
 
 /* Write your solution here */
-
+@media (min-width:800px) {
+#ostrich {
+  position:relative;
+  margin-top:82px;
+  margin-right:4px;
+  bottom:40px;
+}
+}
