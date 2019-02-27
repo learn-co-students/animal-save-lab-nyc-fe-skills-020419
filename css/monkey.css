@@ -4,9 +4,14 @@ html {
 
 #monkey {
   position: absolute;
-  top: 550px;
+  top: 10px;
   right: 120px;
 }
 
+@media (max-width:1170px){
+  monkey {left:406px;}
+  
+@media (min-width:406px)
+}
 /* Write your solution here */
 
