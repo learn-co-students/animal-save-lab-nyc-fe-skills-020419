@@ -8,5 +8,23 @@ html {
   right: 0;
 }
 
+@media (min-width: 1196px) {
+  #bear {
+    position: absolute;
+    right: 100px;
+}
+
+}
 /* Write your solution here */
+
+@media (max-width: 800px) {
+  
+  #bear {
+    position: relative;
+    left: 100px;
+    
+  }
+}
+  
+
 
