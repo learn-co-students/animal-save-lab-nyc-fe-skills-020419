@@ -6,7 +6,18 @@ html {
   position: absolute;
   top: 550px;
   right: 120px;
+  max-width: 1170px;
+  min-width: 406px;
+  transform: translate(100px,100px);
 }
 
 /* Write your solution here */
+@media all and (max-width:1170px) {
+#monkey{
+  bottom: 0px;
+}
+  
+}
 
+@media all and (min-width:406px) {
+}
